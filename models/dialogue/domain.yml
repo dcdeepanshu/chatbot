@@ -1,0 +1,442 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_howdoing
+- utter_ask_isbot
+- utter_appointment
+- utter_Doctor_Search
+- utter_Hospital_Search
+- utter_search_specialty
+- utter_online_consult
+- utter_E_card
+- utter_Enrollment
+- utter_health
+- utter_Policy_details
+- utter_menu
+- utter_vidalbot
+- utter_menuortext
+- utter_login
+- utter_mobile_email
+- utter_otp
+- utter_set_password
+- utter_reset_password
+- utter_login_issue
+- utter_out_of_scope
+- utter_ask_rephrase
+- utter_default
+- action_faqs
+- action_default_fallback
+- action_default_ask_affirmation
+- utter_cashless_procedure
+- utter_cancel_cashless
+- utter_time_preauth
+- utter_pay_cashless
+- utter_non_medical_expenses
+- utter_timelimit_hospital
+- utter_cashless_rejection
+- utter_ask_daycaresurgeries
+- utter_claim_rejection
+- utter_ask_disallowed_amount
+- utter_shortfall
+- utter_docu_reimbursement
+- utter_reimbursement_procedure
+- utter_planned_hospitalisation
+- utter_something_else
+- utter_ask_appoint_confirm
+- utter_ask_emergency_hospitalisation
+- utter_ask_invoice
+- utter_make_pay
+- utter_pay_issue
+- utter_ask_claim_shortfall
+- utter_ask_claim_status
+- utter_when_submit_claim
+- utter_view_appointment
+- utter_network_hosp
+- utter_cashless_status
+- utter_reimbursement_status
+- utter_thankyou
+- utter_handleinsult
+- utter_nicetomeeyou
+- utter_ask_languagesbot
+- utter_ask_howold
+- utter_ask_wherefrom
+- utter_ask_whoisit
+- utter_ask_builder
+- utter_affirm
+- utter_ask_whatspossible
+config:
+  store_entities_as_slots: true
+entities:
+- specialty
+forms: []
+intents:
+- greet:
+    use_entities: true
+- menu:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- ask_howdoing:
+    use_entities: true
+- ask_isbot:
+    use_entities: true
+- appointment:
+    use_entities: true
+- Doctor_Search:
+    use_entities: true
+- Hospital_Search:
+    use_entities: true
+- search_specialty:
+    use_entities: true
+- online_consult:
+    use_entities: true
+- E_card:
+    use_entities: true
+- Enrollment:
+    use_entities: true
+- Policy_details:
+    use_entities: true
+- health:
+    use_entities: true
+- login:
+    use_entities: true
+- mobile_email:
+    use_entities: true
+- otp:
+    use_entities: true
+- set_password:
+    use_entities: true
+- reset_password:
+    use_entities: true
+- login_issue:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- something_else:
+    use_entities: true
+- cashless_procedure:
+    use_entities: true
+- cancel_cashless:
+    use_entities: true
+- time_preauth:
+    use_entities: true
+- pay_cashless:
+    use_entities: true
+- non_medical_expenses:
+    use_entities: true
+- timelimit_hospital:
+    use_entities: true
+- cashless_rejection:
+    use_entities: true
+- ask_daycaresurgeries:
+    use_entities: true
+- claim_rejection:
+    use_entities: true
+- ask_disallowed_amount:
+    use_entities: true
+- shortfall:
+    use_entities: true
+- docu_reimbursement:
+    use_entities: true
+- reimbursement_procedure:
+    use_entities: true
+- planned_hospitalisation:
+    use_entities: true
+- ask_appoint_confirm:
+    use_entities: true
+- ask_emergency_hospitalisation:
+    use_entities: true
+- ask_invoice:
+    use_entities: true
+- make_pay:
+    use_entities: true
+- pay_issue:
+    use_entities: true
+- ask_claim_shortfall:
+    use_entities: true
+- ask_claim_status:
+    use_entities: true
+- when_submit_claim:
+    use_entities: true
+- view_appointment:
+    use_entities: true
+- network_hosp:
+    use_entities: true
+- cashless_status:
+    use_entities: true
+- reimbursement_status:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- handleinsult:
+    use_entities: true
+- nicetomeeyou:
+    use_entities: true
+- ask_languagesbot:
+    use_entities: true
+- ask_howold:
+    use_entities: true
+- ask_wherefrom:
+    use_entities: true
+- ask_whoisit:
+    use_entities: true
+- ask_builder:
+    use_entities: true
+- ask_whatspossible:
+    use_entities: true
+slots: {}
+templates:
+  utter_Doctor_Search:
+  - text: 'You can chose a doctor based on specialty or search by his/her name. '
+  utter_E_card:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.Activities.EcardActivity
+      title: View E-Card
+    text: Your E-card can be accessed from the below button.
+  utter_Enrollment:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.Activities.EnrollActivityTPA
+      title: Enroll
+    text: You can enroll a new member using below button.
+  utter_Hospital_Search:
+  - text: You can search hospital
+  utter_Policy_details:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.Activities.HomeScreenActivityTPA
+      title: Policy details
+    text: Your Policy details can be accessed from the below button.
+  utter_affirm:
+  - text: Ok.
+  - text: Okay. Is there anything else I can help you with?
+  utter_appointment:
+  - buttons:
+    - payload: /Doctor_Search
+      title: Doctor Search
+    - payload: /Hospital_Search
+      title: Hospital Search
+    text: Book appointment helps you get a confirmed appointment booking with a Doctor
+      or Hospital listed on Vidal Health app.Click the link to be redirected
+  utter_ask_appoint_confirm:
+  - text: You will get confirmation over an email, SMS, Push notification and confirmation
+      status on your app that you may show at the Hospital/Clinic.
+  utter_ask_builder:
+  - text: The engineers at Vidal
+  - text: 'Smart engineers at Vidal! '
+  utter_ask_claim_shortfall:
+  - text: Please contact customerservice@vidalhealth.com for this query
+  utter_ask_claim_status:
+  - text: Please contact customerservice@vidalhealth.com for this query
+  utter_ask_daycaresurgeries:
+  - text: Day Care surgeries are those which do not require 24 hours of hospitalization
+      such as Cataract (Eye) surgery, Dialysis, Kidney stone removal, Chemotherapy,
+      D&C etc.Depending on Insurance policy some of the day care surgeries are payable
+      according to term and conditions.
+  utter_ask_disallowed_amount:
+  - text: 'The amount which is not approved is disallowed amount such as Non medical
+      expenses, no proper bill break up, Lab report not submitted aliment capping,
+      exceeds Sum insured / aliment limit Etc '
+  utter_ask_emergency_hospitalisation:
+  - text: 'This happens typically in case of emergencies such as a road traffic accident
+      or in an acute condition.There is no planning involved in the hospitalization.
+      In such situations the Vidal Health Insurance TPA Pvt. Ltd. ID card can be shown
+      at the network hospital to avail cashless admission facility. '
+  utter_ask_howdoing:
+  - text: I'm great! Thanks for asking.
+  - text: I'm good, thanks!
+  utter_ask_howold:
+  - text: Old enough to be a bot
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t
+      matter.
+  utter_ask_invoice:
+  - text: ' You can go to appointments > online > view receipt.'
+  utter_ask_isbot:
+  - text: Yep I'm a bot!
+  utter_ask_languagesbot:
+  - text: I can spell baguette in French, but unfortunately English is the only language
+      I can answer you in.
+  - text: I am in the process of learning, but at the moment I can only speak English.
+  utter_ask_rephrase:
+  - text: Sorry, Could you rephrase your query
+  utter_ask_whatspossible:
+  - text: 'You can ask me about: * Login related queries * Appointment, Online consultation,
+      Health Insurance * General FAQ queries'
+  utter_ask_wherefrom:
+  - text: I was born in Bengaluru, but I consider myself a citizen of the world.
+  - text: I was born in the coolest city on Earth
+  utter_ask_whoisit:
+  - text: Hi, I'm Vidal Chatbot!
+  utter_cancel_cashless:
+  - text: Hospital team needs to send the letter/fax/email to Vidal Health Insurance
+      TPA Pvt. Ltd., asking them to cancel the approval. The cancellation letter will
+      be sent to hospital within 2 hours.
+  utter_cashless_procedure:
+  - text: Customer needs to drop into a Vidal's network hospital to give a copy of
+      his/her Vidal Health Insurance TPA ID card and Identity proof at Hospital reception.
+      Pre-authorisation form has to be filled and the completely filled form should
+      be faxed or mailed to Vidal Health Insurance TPA Pvt. Ltd (respective branches).
+      Once pre-authorisation form is received by Vidal Health Insurance TPA Pvt Ltd.,
+      the case will be processed within 4 hours and the initial authorization letter
+      (approved or rejected) will be faxed/emailed back to hospital by Vidal Health
+      Insurance TPA Pvt. Ltd.
+  utter_cashless_rejection:
+  - text: Rejection will be done as per the policy terms and coverage, the below are
+      the few examples for rejection. a. If hospitalization is for observation & investigation
+      purpose b. If any particular aliment/disease/treatment is found not covered
+      under policy term and condition c. If found that the treatment can be done under
+      OPD basis d. If found that no active line of treatment is available e. If Shortfall
+      and the policy holder has not responded within the given TAT f. If policy is
+      invalid g. Rejection of cashless is not a denial of treatment
+  utter_cashless_status:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.CashlessModule.CashLessActivity
+      title: Cashless
+    text: You can find details on your ongoing cashless or intimate a planned hospitalization
+      by clicking on the below button
+  utter_claim_rejection:
+  - text: 'Refer cashless rejection, a part from those the below are the few reasons
+      for claim rejection * Claim docs not submitted within the given TAT * Claim
+      intimation not given * Date of inception is greater than date of admission *
+      Fraud Case '
+  utter_default:
+  - text: Sorry, could you rephrase your query
+  utter_docu_reimbursement:
+  - text: 'You should submit the entire set of ORIGINAL DOCUMENTs like a. Claim form
+      duly signed b. Vidal Health Insurance TPA card (photo copy) c. Identity Proof
+      (photo copy) d. Discharge summary with seal & signature of the hospital authority
+      e. In-patient bills f. Doctor’s prescription g. Pharmacy bills with break ups
+      h. Investigation reports like MRI, ECG, CT scan, and X-Ray etc i. Laboratory
+      reports j. Paid receipt with hospital seal & signature k. Hospital registration
+      copy (if required) '
+  utter_goodbye:
+  - text: Talk to you later!
+  - text: Good Bye.
+  utter_greet:
+  - text: Hello :) How can I help you
+  utter_handleinsult:
+  - text: That’s not very nice 😢
+  utter_health:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.Activities.HomeScreenActivityTPA
+      title: Policy details
+    - payload: com.vhc.vidalhealth.TPA.Activities.EcardActivity
+      title: E-Card
+    - payload: com.vhc.vidalhealth.TPA.Activities.EnrollActivityTPA
+      title: Enroll
+    text: Click on any below option
+  utter_login:
+  - text: Vidal Health App can be logged with Via Social Media Logins such as Google
+      and Facebook Sign on or you may sign up with your email id and Mobile number
+  utter_login_issue:
+  - text: Kindly contact us on customerservice@vidalhealth.com with details of error
+      message.
+  utter_make_pay:
+  - text: 1.)Appointment Bookings - Payments can be made online (credit card/debit
+      card/net banking) or offline i.e directly at the hospital, the mode of payment
+      varies from Hospital to Hospital, kindly check your payment detailed screen
+      before confirming on the appointment. 2.) Tele Consult - Payments need to be
+      made online (credit card/debit card/net banking) prior to consultation.
+  utter_menu:
+  - buttons:
+    - payload: com.vhc.vidalhealth.VcOne.Activity.ScreenAppointmentNew
+      title: Book Appointment
+    - payload: com.vhc.vidalhealth.VcTelemed.Activity.HomeTelemed
+      title: Online Consultation
+    - payload: com.vhc.vidalhealth.TPA.Activities.LoginActivityTPA
+      title: Health Insurance
+    text: How can I help you?
+  utter_mobile_email:
+  - text: Yes, we require your mobile number and email id for sign in
+  utter_network_hosp:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.Activities.AffliatedHospitalActivity
+      title: Network Hospitals
+    text: You can find Vidal Network Hospital near your location by clicking on the
+      below button
+  utter_nicetomeeyou:
+  - text: Thank you. It is a pleasure to meet you as well!
+  - text: It is nice to meet you too!
+  - text: Pleased to meet you too!
+  - text: Likewise!
+  utter_non_medical_expenses:
+  - text: 'Non Medical expenses are: Admission fees, Registration fees, gloves, blade,
+      water bed, food & beverages, extra bed etc.'
+  utter_online_consult:
+  - text: You can consult a doctor via phone, video call or text.
+  utter_otp:
+  - text: Non delivery/delayed delivery of  SMS is may happen due to registration
+      of a number under NDNC/NDND, we would request you to kindly de-register yourself
+      and try again, in case the issue persists contact us on customerservice@vidalhealth.com.
+  utter_out_of_scope:
+  - text: Sorry, I can't handle that request.
+  - text: I'm sorry, I can't handle that request.
+  - text: I'm still in the learning phase. It seems like I can't handle that request.
+  utter_pay_cashless:
+  - text: The policy holder needs to pay the non medical expenses and the co-pay amount
+      (if applicable). He will need to pay the difference amount (difference between
+      the final bill and approved amount).
+  utter_pay_issue:
+  - text: We apologize for the inconvenience caused.Kindly email us the transaction
+      id on customerservice@vidalhealth.com and our team shall get in touch with you
+      in 3-5 business days. In the meanwhile we would suggest you to book a fresh
+      appointment with the doctor of your choice
+  utter_planned_hospitalisation:
+  - text: This happens when you have ample time to plan your admission to the hospital.
+      For example, if the doctor advises surgery for hernia and says that you can
+      undergo the surgery anytime in this month, it gives you time to plan your surgery.
+  utter_reimbursement_procedure:
+  - text: Policy holder will need to download the claim form No 9 from our website
+      https://www.vidalhealthtpa.com The claim form contains 4 pages which includes
+      medical certificate also. The medical certificate needs to be filled in by the
+      Treating doctor with hospital seal and doctor’s signature. The policy holder
+      should fill the claim form and should attach all his original bills and send
+      a courier to Vidal Health Insurance TPA Pvt. Ltd(respective branches).
+  utter_reimbursement_status:
+  - buttons:
+    - payload: com.vhc.vidalhealth.TPA.ReimburseModule.ReimburseActivity
+      title: Reimbursement
+    text: You can find details on your ongoing reimbursement or intimate a reimbursement
+      by clicking on the below button
+  utter_reset_password:
+  - text: To retrieve/reset forgotten passwords kindly go to Sign In > Enter your
+      registered mobile number > Click on forgot Password (below Type your password)
+      and you will get an OTP, enter the OTP to reset your password.
+  utter_search_specialty:
+  - text: 'You can find a doctor of particular speciality by clicking the below button '
+  utter_set_password:
+  - text: To set a password kindly Sign Up > Type in your email id & Phone No > verify
+      with OTP > Enter Your name & Set Password.
+  utter_shortfall:
+  - text: ' You can send the shortfall documents to respective Vidal Health Insurance
+      TPA Pvt. Ltd. branch through post/courier or by walking in to respective branch.
+      You should send within 7 working days from the date of receiving the S/F query/letter.'
+  utter_something_else:
+  - text: Sorry, I'm still in the learning phase so could you rephrase your query
+  utter_thankyou:
+  - text: My pleasure.
+  - text: You are welcome!
+  - text: I'm happy to help.
+  utter_time_preauth:
+  - text: If it is a planned hospitalization then the pre-authorization request needs
+      to be sent before 48 hours from the date of admission. In case of emergency
+      the pre-authorisation request needs to send within 6 hours from the time of
+      admission.
+  utter_timelimit_hospital:
+  - text: Minimum 24 hours of hospitalization (if not day-care) with active line of
+      treatment is required for cashless treatment
+  utter_vidalbot:
+  - text: "Hi, I am Vidal chatbot! How can I help you? You can enter your query or\
+      \ type 'menu'. "
+  utter_view_appointment:
+  - buttons:
+    - payload: com.vhc.vidalhealth.Common.Activity.ScreenViewAppointments
+      title: My Appointments
+    text: You can check your Appointments and Online Consultations by clicking on
+      the below button
+  utter_when_submit_claim:
+  - text: Normally it is 7 days from the date of discharge for hospitalisation claim

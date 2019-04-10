@@ -1,0 +1,4677 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello chatbot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Vidal"
+      },
+      {
+        "intent": "greet",
+        "text": "hi vidal"
+      },
+      {
+        "intent": "greet",
+        "text": "hello vidal"
+      },
+      {
+        "intent": "greet",
+        "text": "hey vidal"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Start"
+      },
+      {
+        "intent": "greet",
+        "text": "start"
+      },
+      {
+        "intent": "greet",
+        "text": "knock knock?"
+      },
+      {
+        "intent": "greet",
+        "text": "Knock knock"
+      },
+      {
+        "intent": "greet",
+        "text": "Start the chat"
+      },
+      {
+        "intent": "greet",
+        "text": "start the chat"
+      },
+      {
+        "intent": "greet",
+        "text": "start"
+      },
+      {
+        "intent": "greet",
+        "text": "Begin"
+      },
+      {
+        "intent": "greet",
+        "text": "begin"
+      },
+      {
+        "intent": "menu",
+        "text": "Menu"
+      },
+      {
+        "intent": "menu",
+        "text": "menu"
+      },
+      {
+        "intent": "menu",
+        "text": "MENU"
+      },
+      {
+        "intent": "menu",
+        "text": "menu"
+      },
+      {
+        "intent": "menu",
+        "text": "menus"
+      },
+      {
+        "intent": "menu",
+        "text": "Menu"
+      },
+      {
+        "intent": "menu",
+        "text": "What can u do?"
+      },
+      {
+        "intent": "menu",
+        "text": "What can you do?"
+      },
+      {
+        "intent": "menu",
+        "text": "What all can you do?"
+      },
+      {
+        "intent": "menu",
+        "text": "show menu"
+      },
+      {
+        "intent": "menu",
+        "text": "Show menu"
+      },
+      {
+        "intent": "menu",
+        "text": "open menu"
+      },
+      {
+        "intent": "menu",
+        "text": "Open menu"
+      },
+      {
+        "intent": "menu",
+        "text": "meni"
+      },
+      {
+        "intent": "menu",
+        "text": "Show Menu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "c u"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "By"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye!!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you alright"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How am I doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are things?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How am I doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you today"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how have you been"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How was your day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it hanging?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life been treating you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's life treating you friend?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How've you been?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Is everything ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what about your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's good"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's new?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up man"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you have a great day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a real bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you really a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a rasa bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a rasa bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "what are you, a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "tell me, are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial intelligence"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "i guess you are a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you are a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you are ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Am I a Bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you are chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "you're a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Are you the bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Hi there, are you the bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Are you a chat bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are u a Vidal bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Are you Vidal bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Vidal bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "vidal bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Ar you a bot ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you real"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "What are you ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you real lol"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "cuz you are a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "oh are you chatbot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you sure that you're a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a BOT"
+      },
+      {
+        "intent": "appointment",
+        "text": "What does the book appointment feature do?"
+      },
+      {
+        "intent": "appointment",
+        "text": "What is book appointment feature?"
+      },
+      {
+        "intent": "appointment",
+        "text": "How to book appointment?"
+      },
+      {
+        "intent": "appointment",
+        "text": "book appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Appointment Booking"
+      },
+      {
+        "intent": "appointment",
+        "text": "help me to book an appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Appointment booking"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "What does the book appointment feature do?"
+      },
+      {
+        "intent": "appointment",
+        "text": "What is book appointment feature?"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "How to book appointment?"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "book appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "help me to book an appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Appointment booking"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "How can i book an appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "doctor appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "appointment with doctor"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "hospital appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "appointment doctor"
+      },
+      {
+        "intent": "appointment",
+        "text": "I want to book an appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "book an appointment for me"
+      },
+      {
+        "intent": "appointment",
+        "text": "book appointment for me"
+      },
+      {
+        "intent": "appointment",
+        "text": "where to Book Appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "can't book appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "unable to book appointment"
+      },
+      {
+        "intent": "appointment",
+        "text": "not able to book appointment"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "How can I search for doctors on Vidal Health App?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Where can i find doctors in the app?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Doctor Search"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "how to search a doctor?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "How to search a particular doctor in the app?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "where can i find a particular doctor?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "How can I search for doctors on Vidal Health App?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Doctor Search"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Where can i find doctors in the app?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "how to search a doctor?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "How to search a particular doctor in the app?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "where can i find a particular doctor?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "How can I search a doctor?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "search a doctor in the app"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "search a doc"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "search a doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Doctor Search"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "where can i search a doc"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Doctor Search"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "Doctor search"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "How can I search a doctor?"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "where can i search doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "how can i search a doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "can't search a doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "can't find doctors on app"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "unable to search doctor"
+      },
+      {
+        "intent": "Doctor_Search",
+        "text": "i want to book doctor"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "How can I search for Hospitals on Vidal Health App?"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Where can i search for a hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "How to search a hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Can i find a hospital of my choice"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "I want to look for a particular hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "where can i find a  specific hospital for appointment"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "How can I search for Hospitals on Vidal Health App?"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Where can i search for a hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "How to search a hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Can i find a hospital of my choice"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "where can i find a  specific hospital for appointment"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Hospital Search"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "search for a hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Hospital Search"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "search a particular hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "search hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "hospital search"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "hospital appointment"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "want to look for a particular hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Hospital Search"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "Hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "unable to search hospital"
+      },
+      {
+        "intent": "Hospital_Search",
+        "text": "can't find hospital"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Ayurveda",
+            "entity": "specialty"
+          }
+        ],
+        "text": "i want to book for Ayurveda"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "Cardiologist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Book me an appointment for Cardiologist doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Dentist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Book an appointment for Dentist doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "Dermatologist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Book an appointment for Dermatologist doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Diabetes",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Book me an appointment for Diabetes doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Dentist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "I want to search for Dentist"
+      },
+      {
+        "intent": "search_specialty",
+        "text": "Search for a Speciality of doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Physician",
+            "entity": "specialty"
+          }
+        ],
+        "text": "I want to search for Physician"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Gynecology",
+            "entity": "specialty"
+          }
+        ],
+        "text": "I want to search for Gynecology"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Homeopathy",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Homeopathy"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Dentist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Dentist"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "General physician",
+            "entity": "specialty"
+          }
+        ],
+        "text": "General physician"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Neurologist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Neurologist"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Orthopedics",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Orthopedics"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Radiologist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Radiologist"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "surgery",
+            "entity": "specialty"
+          }
+        ],
+        "text": "surgery"
+      },
+      {
+        "intent": "search_specialty",
+        "text": "Search for a particular Speciality of doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Homeopathy",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Homeopathy appointment with doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Dentist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Dentist appointment with doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Dermatologist",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Dermatologist appointment with doctor"
+      },
+      {
+        "intent": "search_specialty",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Physician",
+            "entity": "specialty"
+          }
+        ],
+        "text": "Physician appointment with doctor"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "Network hospitals of Vidal"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "Vidal network hospitals"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "can u tell me affiliated hospitals of vidal where i can get cashless"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "Show me network hospitals near me"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "Network hospitals of Vidal near me"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "Vidal hospitals"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "which hospitals can i visit"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "which are the affiliated hospitals of vidal where i can get cashless"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "which are the vidal affiliated hospitals"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "network hospitals where i can use my vidal e-card"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "network hospitals where i can use my e-card"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "hospitals where i can get cashless treatment"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "Hospitals"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "which hospitals can i use my insurance"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "which hospitals can i get cashless treatment"
+      },
+      {
+        "intent": "network_hosp",
+        "text": "I want to know the list of network hospitals of Vidal"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "doctor consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "online consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "i want to consult a doctor"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation doctor"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation vidal"
+      },
+      {
+        "intent": "online_consult",
+        "text": "consult doctor via chat"
+      },
+      {
+        "intent": "online_consult",
+        "text": "consult doctor via call"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "consultation via chat"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation with doctors"
+      },
+      {
+        "intent": "online_consult",
+        "text": "chat consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation doctor"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation vidal"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "Online Consultation"
+      },
+      {
+        "intent": "online_consult",
+        "text": "i want to contact doctor online"
+      },
+      {
+        "intent": "online_consult",
+        "text": "i want to schedule call with doctor"
+      },
+      {
+        "intent": "online_consult",
+        "text": "i want to schedule video call with doctor"
+      },
+      {
+        "intent": "online_consult",
+        "text": "i want to chat with doctor"
+      },
+      {
+        "intent": "online_consult",
+        "text": "how can i call doctor?"
+      },
+      {
+        "intent": "online_consult",
+        "text": "how can i video call doctor?"
+      },
+      {
+        "intent": "online_consult",
+        "text": "how can i chat with doctor?"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "health"
+      },
+      {
+        "intent": "health",
+        "text": "Health"
+      },
+      {
+        "intent": "health",
+        "text": "health insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Health"
+      },
+      {
+        "intent": "health",
+        "text": "health"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance details"
+      },
+      {
+        "intent": "health",
+        "text": "I want to know my  health insurance details"
+      },
+      {
+        "intent": "health",
+        "text": "Health Insurance"
+      },
+      {
+        "intent": "E_card",
+        "text": "I want my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "i want to download my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "ecard"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "where can i find e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "can i get my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "Download e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "Ecard download"
+      },
+      {
+        "intent": "E_card",
+        "text": "e-card download"
+      },
+      {
+        "intent": "E_card",
+        "text": "Vidal  E-Card"
+      },
+      {
+        "intent": "E_card",
+        "text": "e card download"
+      },
+      {
+        "intent": "E_card",
+        "text": "e card display"
+      },
+      {
+        "intent": "E_card",
+        "text": "E card download"
+      },
+      {
+        "intent": "E_card",
+        "text": "Show my E-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "Download e card"
+      },
+      {
+        "intent": "E_card",
+        "text": "Vidal  E-Card"
+      },
+      {
+        "intent": "E_card",
+        "text": "I want to download my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "download my ecard"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card download"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card view"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "Ecard download"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card download"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-Card"
+      },
+      {
+        "intent": "E_card",
+        "text": "where can i find my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "E-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "How do I generate the E-Card from the app?"
+      },
+      {
+        "intent": "E_card",
+        "text": "generate my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "where is my e-card?"
+      },
+      {
+        "intent": "E_card",
+        "text": "i want my e-card?"
+      },
+      {
+        "intent": "E_card",
+        "text": "can't find my ecard?"
+      },
+      {
+        "intent": "E_card",
+        "text": "unable to find ecard?"
+      },
+      {
+        "intent": "E_card",
+        "text": "unable to access ecard?"
+      },
+      {
+        "intent": "E_card",
+        "text": "unable to find e-card?"
+      },
+      {
+        "intent": "E_card",
+        "text": "lost my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "e-card not accessible"
+      },
+      {
+        "intent": "E_card",
+        "text": "i want to download my e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "i need vidal e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "where can i download my vidal e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "can i view my vidal e-card here"
+      },
+      {
+        "intent": "E_card",
+        "text": "i need my ecard"
+      },
+      {
+        "intent": "E_card",
+        "text": "i require e-card"
+      },
+      {
+        "intent": "E_card",
+        "text": "ecard not available"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "how can i enroll a new member to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "enroll"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "enroll new member"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "I want to enroll a new member."
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "add new member to policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll memeber"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "How to enroll a new member to policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "add new member"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll member"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "Enroll"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "add my family member to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "how can i add my family member to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "how to add new member of my family to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "where can i add new family member to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "add new member to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "unable to add new member to my policy"
+      },
+      {
+        "intent": "Enrollment",
+        "text": "can't find page to add new member to my policy"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "My policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy status"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Show me my policy"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "can you show me my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "can you tell my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "where can i see my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "i want to know my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "my policy details are lost"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "lost my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "i want to view my policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "can you tell my ppolicy number"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "Policy details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "policy Details"
+      },
+      {
+        "intent": "Policy_details",
+        "text": "policy details"
+      },
+      {
+        "intent": "login",
+        "text": "How do I login to Vidal Health App?"
+      },
+      {
+        "intent": "login",
+        "text": "How to login?"
+      },
+      {
+        "intent": "login",
+        "text": "How to login/signup?"
+      },
+      {
+        "intent": "login",
+        "text": "Login in the app"
+      },
+      {
+        "intent": "login",
+        "text": "Can i login using google or facebook?"
+      },
+      {
+        "intent": "login",
+        "text": "Can i login using gmail?"
+      },
+      {
+        "intent": "login",
+        "text": "Can i login using google?"
+      },
+      {
+        "intent": "login",
+        "text": "Can i login using fb?"
+      },
+      {
+        "intent": "login",
+        "text": "How can i open the app?"
+      },
+      {
+        "intent": "login",
+        "text": "How can i start the app?"
+      },
+      {
+        "intent": "login",
+        "text": "procedure to login into vidal health application"
+      },
+      {
+        "intent": "login",
+        "text": "How can i get inside the app?"
+      },
+      {
+        "intent": "login",
+        "text": "How shall i login?"
+      },
+      {
+        "intent": "login",
+        "text": "How can i signup?"
+      },
+      {
+        "intent": "login",
+        "text": "How to signup for a new account?"
+      },
+      {
+        "intent": "login",
+        "text": "login"
+      },
+      {
+        "intent": "login",
+        "text": "signup"
+      },
+      {
+        "intent": "login",
+        "text": "how to signup in the vidal app"
+      },
+      {
+        "intent": "login",
+        "text": "how to login the vidal app"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Is mobile number and email id Mandatory to Sign In, if Yes, why so?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Why do you need my mobile no?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Why do you need my email and mobile for sign in?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Do i need to give my mobile no and email"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Can I use my mobile no/e-mail id?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Is phone no and email required?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Is email required to sign in?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Is email required?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "Is mobile number required to signup?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "email"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "mobile no to signup?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "mobile number to signup?"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "mobile no to login"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "mobile number to login"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "email for signup"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "phone no for signup"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "can i use my phone no to sign in"
+      },
+      {
+        "intent": "mobile_email",
+        "text": "phone number to signup"
+      },
+      {
+        "intent": "otp",
+        "text": "I am unable to get my registration OTP, why?"
+      },
+      {
+        "intent": "otp",
+        "text": "otp"
+      },
+      {
+        "intent": "otp",
+        "text": "Didn't get my otp yet"
+      },
+      {
+        "intent": "otp",
+        "text": "Not getting my otp"
+      },
+      {
+        "intent": "otp",
+        "text": "Didn't receive otp"
+      },
+      {
+        "intent": "otp",
+        "text": "error in receiving one time password"
+      },
+      {
+        "intent": "otp",
+        "text": "Not got my otp"
+      },
+      {
+        "intent": "otp",
+        "text": "OTP"
+      },
+      {
+        "intent": "otp",
+        "text": "I have entered my mobile number but didn't get any otp"
+      },
+      {
+        "intent": "otp",
+        "text": "Didn't get any otp"
+      },
+      {
+        "intent": "otp",
+        "text": "Send otp again"
+      },
+      {
+        "intent": "otp",
+        "text": "Resend otp"
+      },
+      {
+        "intent": "otp",
+        "text": "No otp"
+      },
+      {
+        "intent": "set_password",
+        "text": "How can I set my password?"
+      },
+      {
+        "intent": "set_password",
+        "text": "How can i set password for my account"
+      },
+      {
+        "intent": "set_password",
+        "text": "How to set password"
+      },
+      {
+        "intent": "set_password",
+        "text": "I want to set my password"
+      },
+      {
+        "intent": "set_password",
+        "text": "Where can i set my password?"
+      },
+      {
+        "intent": "set_password",
+        "text": "Need to set my password"
+      },
+      {
+        "intent": "set_password",
+        "text": "To set my password"
+      },
+      {
+        "intent": "set_password",
+        "text": "How to set password for my account?"
+      },
+      {
+        "intent": "set_password",
+        "text": "set password for my account"
+      },
+      {
+        "intent": "set_password",
+        "text": "Set account password"
+      },
+      {
+        "intent": "set_password",
+        "text": "set password"
+      },
+      {
+        "intent": "set_password",
+        "text": "where can i set my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "How can I retrieve my forgotten password?"
+      },
+      {
+        "intent": "reset_password",
+        "text": "How can i reset my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "Forgot my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "Need to reset my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "How to reset a new password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "I want to reset my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "How to reset password for my account?"
+      },
+      {
+        "intent": "reset_password",
+        "text": "Want to get my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "Reset password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "Forgotten my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "What to do if i have forgotten my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "What shall i do if I've forgotten my password"
+      },
+      {
+        "intent": "reset_password",
+        "text": "reset"
+      },
+      {
+        "intent": "login_issue",
+        "text": "I am unable to login/Sign up, what do I do?"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Can't login into vidal app"
+      },
+      {
+        "intent": "login_issue",
+        "text": "cant login"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Unable to login into the app"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Unable to signup"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Cant signup for a new account"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Error during login"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Issue while logging into the app"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Not able to signup"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Not able to login"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Login issue"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Signup issue"
+      },
+      {
+        "intent": "login_issue",
+        "text": "I can't login !"
+      },
+      {
+        "intent": "login_issue",
+        "text": "login issue"
+      },
+      {
+        "intent": "login_issue",
+        "text": "signup issue"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Facing an issue while logging in"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Facing issue while signing up"
+      },
+      {
+        "intent": "login_issue",
+        "text": "Trouble logging in"
+      },
+      {
+        "intent": "login_issue",
+        "text": "i can't signup"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "What is the procedure to avail cashless facility?"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "How can i avail cashless facility"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "Cashless facility at vidal"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "cashless transaction"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "cashless hospitalization"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "cashless facility"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "How to avail cashless facility"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "procedure to get cashless hospitalization"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "how to avail cashless hospitalisation"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "cashless"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "how can i get cashless facility in any hospital?"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "how can i use cashless facility"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "how to use cashless facility in hospital"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "procedure to utilize cashless facility"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "how to make cashless payment"
+      },
+      {
+        "intent": "cashless_procedure",
+        "text": "how can i make use of cashless facility at hospital"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "status of my cashless"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "cashless intimation"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "cashless history"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "Is my cashless hospitalization processed?"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "Is my cashless processed?"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "what is my cashless status"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "Ive applied for cashless, when will it be processed"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "my cashless requests"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "past cashless history"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "details of my ongoing cashless request"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "status on ongoing cashless request"
+      },
+      {
+        "intent": "cashless_status",
+        "text": "check status of my cashless"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "What is the procedure to cancel the cashless approval?"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "how to cancel cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "how can i cancel cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "cancel cashless"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "How to cancel cashless transaction"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "i want to cancel my cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "cancel cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "please cancel my cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "where can i cancel cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "please cancel my cashless approval"
+      },
+      {
+        "intent": "cancel_cashless",
+        "text": "i want to cancel cashless approval"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "Is there any time limit to submit the Pre-authorisation request?"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "What is time limit to submit Pre-authorisation request"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "time limit to submit pre auth request"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "what is time limit to submit pre-auth request"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "When should i submit pre-auth request"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "when can i submit pre-auth request"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "Time limit to process pre-auth"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "When should i submit pre-auth request"
+      },
+      {
+        "intent": "time_preauth",
+        "text": "When to submit request for pre-auth"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "Do I need to pay any amount to the hospital while getting discharged for Cashless hospitalisation?"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "Do i need to pay to hospital for cashless hospitalisation"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "Do I need to pay to the hospital while getting discharged for Cashless hospitalisation?"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "what is the amount to be paid to hospital for cashless hospitalisation"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "Amount to be paid to hospital for cashless hospitalisation"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "what is the amount to be paid to hospital for cashless transaction"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "amount to be paid for cashless"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "should i pay any cash amount in hospital during cashless hospitalization"
+      },
+      {
+        "intent": "pay_cashless",
+        "text": "should any amount be paid by me to hospital while availing cashless treatment?"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "What are Non-Medical expenses?"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "Non medical expenses"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "what is non medical expenses"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "Non medical expense"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "what and all are non medical expenses"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "what all comes under non medical expenses"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "What are Non-Medical expenses?"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "Non medical expenses"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "what all is included in non-medical expenses?"
+      },
+      {
+        "intent": "non_medical_expenses",
+        "text": "can you tell what are nonmedical expenses?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "Is there any minimum time limit for stay in the hospital?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "What is the minimum time limit for stay in the hospital for cashless treatment"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "minimum time limit for stay in the hospital?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "how long do i have to stay in the hospital to avail cashless treatment"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "minimum hospital stay?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "minimum hospital stay for cashless"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "Minimum time limit to stay in hospital for cashless"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "How long do i have to stay in hospital to get cashless treatment"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "how long would i have to admit in hospital"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "for how long should i stay in hospital to get cashless treatment"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "what is the time limit to stay in hospital for my insurance to work?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "what is the minimal time i need to stay in hospital to claim my insurance?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "how long do i need to stay in hospital to get cashless treatment?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "what is the criteria to avail cashless treatment in hospital?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "what minimum time period of stay in hospital is required to avail cashless treatment?"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "for how long i should be in hospital to avail cashless"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "what minimum hours of stay in hospital is required to avail cashless"
+      },
+      {
+        "intent": "timelimit_hospital",
+        "text": "hospitalization time"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "What is Cashless Rejection?"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "What is cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "Cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "What do u mean by cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "What do you mean by cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "whats cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "Cashless rejection"
+      },
+      {
+        "intent": "cashless_rejection",
+        "text": "why was my cashless treatment rejected"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "What is Day-Care Surgeries?"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "What are day care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "day care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "Day care surgeries are payable or not?"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "are day care surgeries payable?"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "Are day care surgeries payable?"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "Day Care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "do i have to pay for day care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "day care surgeries are payable?"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "what do u mean by day care?"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "day care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "Day care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "what all is included in day care surgeries"
+      },
+      {
+        "intent": "ask_daycaresurgeries",
+        "text": "day care"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "What is Claim Rejection?"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "whats claim rejection"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "why was my claim rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "reason for rejection of my claim"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "my claim was rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "why was my claim rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "claim rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "claim rejection"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "Why is my claim rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "Claim rejection"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "My claim got rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "what is the reason for my claim rejection"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "why has been my claim rejection"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "can you tell me why claims get rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "why was my claim rejected"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "i had all required documents. why was my claim rejected still"
+      },
+      {
+        "intent": "claim_rejection",
+        "text": "reason for claim rejection"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "What is disallowed amount?"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "Why can't i claim disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "what do u mean by disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "Disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "What is disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "What is disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "why do i have a disallowed amount for my claim"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "Disallowed amount"
+      },
+      {
+        "intent": "ask_disallowed_amount",
+        "text": "What is disallowed amount?"
+      },
+      {
+        "intent": "shortfall",
+        "text": "What are shortfall documents?"
+      },
+      {
+        "intent": "shortfall",
+        "text": "what are shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "Where and how can I send the Shortfall Documents?"
+      },
+      {
+        "intent": "shortfall",
+        "text": "how can i sumbit shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "where should i submit shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "what is time limit to send shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "whats the time limit to send shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "shortfall documents submit"
+      },
+      {
+        "intent": "shortfall",
+        "text": "shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "time limit to send shortfall documents"
+      },
+      {
+        "intent": "shortfall",
+        "text": "where can i send documents of shortfall"
+      },
+      {
+        "intent": "shortfall",
+        "text": "what is shortfall procedure"
+      },
+      {
+        "intent": "shortfall",
+        "text": "can you tell me about shortfall"
+      },
+      {
+        "intent": "shortfall",
+        "text": "what to send in case of shortfall"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "What are the documents that I should submit for reimbursement?"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "reimbursement documents"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "what are documents to submit for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "documents to be submitted for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "What documents should be submitted for reimbursement?"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "Document submitted for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "what are all the documents to submit for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "what should i submit for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "reimbursement documents"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "what are documents to submit for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "How to submit a reimbursement claim?"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "How can i claim for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "How do i claim for a reimbursement amount"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "Documents to submit for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "Where can i reimburse?"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "how to submit reimbursement claim"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "how can i reimburse my claim"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "how can i claim for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "where should i submit my documents for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "Where should I submit my documents for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "what all documents are required for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "where am i supposed to send documents for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "how to submit reimbursement documents"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "what documents to submit for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "can you guide me about reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "reimbursement issue"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "problem with reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "i want to reimburse"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "I want reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "Can you help me with reimbursing my hospital bills"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "trouble submitting documents for reimbursement"
+      },
+      {
+        "intent": "docu_reimbursement",
+        "text": "reimbursement for my claim"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "What is the procedure of Reimbursement?"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "procedure for reimbursement"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "whats the procedure for reimbursement"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "How can i reimburse"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "how should i reimburse"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "reimbursement of my claim"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "procedure for reimbursement"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "how to reimburse my claim"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "Procedure for reimbursement"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "procedure to reimburse claim"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "how will my money be reimbursed"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "reimbursement procedure"
+      },
+      {
+        "intent": "reimbursement_procedure",
+        "text": "can you tell me how will my money be reimbursed"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "can i know the status of my reimbursement"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "my reimbursement status"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "Reimbursement"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "Reimburse"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "how long will it take for reimbursement"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "when will my money be reimbursed"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "when will my claim be reimbursed"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "Status of my reimbursement"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "My current status of reimbursement request"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "Details of my past reimbursement"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "reimbursement history"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "my reimbursement"
+      },
+      {
+        "intent": "reimbursement_status",
+        "text": "reimburse status"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "What is planned hospitalization?"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "planned hospitalization"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "What do u mean by planned hospitalization"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "Planned Hospitalization"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "What is planned hospitalisation?"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "planned hospitalisation"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "What do u mean by planned hospitalisation"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "Planned Hospitalisation"
+      },
+      {
+        "intent": "planned_hospitalisation",
+        "text": "Planned Hospitalisation"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "How will i know when my appointment is confirmed"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "How will I know when my  doctor appointment is confirmed"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "Confirmation of appointment"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "Appointment confirmation"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "When will i get notified about my appointment"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "Is my appointment confirmed?"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "When will i get notified about my appointment confirmation"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "Is my appointment confirmed"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "Appointment with doctor confirmed?"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "appointment confirmation"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "appointment confirmation notification"
+      },
+      {
+        "intent": "ask_appoint_confirm",
+        "text": "I had an appointment, can you tell me if its confirmed?"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "What is emergency hospitalisation?"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "emergency hospitalisation"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "Emergency Hospitalisation"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "What do u mean by emergency hospitalisation"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "Emergency Hospitalisation"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "What is emergency hospitalization?"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "emergency hospitalization"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "What do u mean by emergency hospitalization"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "whats emergency hospitalization?"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "what is  emergency hospitalization?"
+      },
+      {
+        "intent": "ask_emergency_hospitalisation",
+        "text": "Emergency Hospitalization"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "Does Vidal provide me with an invoice?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "Where can i find my invoice?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "invoice"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "How to access my invoice?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "how to get invoice of my payment"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "where is my invoice for appointment booking?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "I didnt get any invoice for my booking"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "invoice of my tele consultation"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "Does Vidal provide me with an invoice?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "Where can i find my invoice?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "invoice"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "How to access my invoice?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "how to get invoice of my payment"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "where is my invoice for appointment booking?"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "invoice of my tele consultation"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "Invoice"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "Didn't receive invoice"
+      },
+      {
+        "intent": "ask_invoice",
+        "text": "No invoice received"
+      },
+      {
+        "intent": "make_pay",
+        "text": "How can i make the payment?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for appointment booking?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for tele consultation"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for tele consult?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Can i pay online?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Do i need to pay online?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for  my appointments"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for tele consultation with the doctors"
+      },
+      {
+        "intent": "make_pay",
+        "text": "can i pay using my credit card"
+      },
+      {
+        "intent": "make_pay",
+        "text": "can i pay using my debit card"
+      },
+      {
+        "intent": "make_pay",
+        "text": "can i pay using net banking"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Payment mode"
+      },
+      {
+        "intent": "make_pay",
+        "text": "How can i make the payment?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "how should i pay for appointment?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for appointment booking?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for tele consultation"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for tele consult?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Can i pay online?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Do i need to pay online?"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for  my appointments"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Where should i pay for tele consultation with the doctors"
+      },
+      {
+        "intent": "make_pay",
+        "text": "Payment mode"
+      },
+      {
+        "intent": "make_pay",
+        "text": "can i pay using my credit card"
+      },
+      {
+        "intent": "make_pay",
+        "text": "can i pay using my debit card"
+      },
+      {
+        "intent": "make_pay",
+        "text": "can i pay using netbanking"
+      },
+      {
+        "intent": "make_pay",
+        "text": "payment"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "I was charged by the payment gateway but my booking was not confirmed?"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "i have paid for the appointment but my booking isnt confirmed"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "Money has been deducted but booking not yet confirmed"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "Booking isn't confirmed yet"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "payment issue"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "I was charged by the payment gateway but my booking was not confirmed?"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "i have paid for the appointment but my booking isnt confirmed"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "Money has been deducted but booking not yet confirmed"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "Booking isn't confirmed yet"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "Money deducted but booking not confirmed"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "money gone but booking isnt confirmed"
+      },
+      {
+        "intent": "pay_issue",
+        "text": "Payment Issue"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "What was the reason for my claim to be a shortfall?"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Why my claim shortfall?"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Reason for shortfall of my claim"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Why is there a shortfall in my claim?"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Why shortfall of claim"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Claim shortfall?"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Reason for claim shortfall"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Why is claim shortfall?"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Claim shortfall reason"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "Reason for my claim shortfall"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "why shortfall"
+      },
+      {
+        "intent": "ask_claim_shortfall",
+        "text": "why shortfall of my claim"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "What is the status of the claim?"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "Claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "What's my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "Tell me the status of my claim"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "Information on my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "info on my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "What is my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "Status of my claim"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "Updates on my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "updated status of claim"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "what is status of my claim"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "Provide info on claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "whats my claim status?"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "my claim status"
+      },
+      {
+        "intent": "ask_claim_status",
+        "text": "What is my claim status?"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "When can I submit my claim paper?"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "When should i submit the documents for claim"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "Period during which i should submit my claim papers"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "When shall i submit my claims"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "After my discharge, when should i submit my claim documents"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "after i am discharged when should i submit claim papers"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "submit claim papers"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "Submit claim papers"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "Can u help me with submitting my claim papers"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "Help me with submitting claim documents"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "How do I submit a claim?"
+      },
+      {
+        "intent": "when_submit_claim",
+        "text": "How to intimate a claim?"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "I want to check my booked appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "View Appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "Where can I check my appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My recent appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "Can i see my booked appointment"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "Can i see my booked appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "Can i see my appointment"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My bookings"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "Show my upcoming appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "my appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "my upcoming appointments for the week"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "my appointments"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "show me my previous consultations"
+      },
+      {
+        "intent": "view_appointment",
+        "text": "My appointments"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "neither"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i do not care how are you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "again?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "stop it, i do not care!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "really? you're so touchy?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how come?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "did i break you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "shit bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I like you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "silly bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what else can u do?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i hate you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what else?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can we keep chatting?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "talk to me"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "go back"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "better than you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "lol"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "reply"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bots are bad"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i dont like bots"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "where do you live?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Why don’t you answer?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "@"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "$"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "1"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "2"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "3"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "5"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "6"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "7"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "8"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "9"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "%"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "^"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "-"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "="
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "+"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "&"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "!!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "~"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": ","
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "/"
+      },
+      {
+        "intent": "something_else",
+        "text": "Something else"
+      },
+      {
+        "intent": "something_else",
+        "text": "soemthing else"
+      },
+      {
+        "intent": "something_else",
+        "text": "somethining else"
+      },
+      {
+        "intent": "something_else",
+        "text": "I mean something else"
+      },
+      {
+        "intent": "something_else",
+        "text": "Something else"
+      },
+      {
+        "intent": "something_else",
+        "text": "I meant something else"
+      },
+      {
+        "intent": "something_else",
+        "text": "Something else"
+      },
+      {
+        "intent": "something_else",
+        "text": "something else"
+      },
+      {
+        "intent": "something_else",
+        "text": "Something else"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "go for it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "Okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep, will do thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "okie"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay?"
+      },
+      {
+        "intent": "affirm",
+        "text": "Sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "ohk"
+      },
+      {
+        "intent": "affirm",
+        "text": "okk"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "Okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "YES"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "Nah"
+      },
+      {
+        "intent": "deny",
+        "text": "NO"
+      },
+      {
+        "intent": "deny",
+        "text": "dont"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "i hate you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "so dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are a moron"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are an idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "so fucking dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "how can you be such an idiot?"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are fucking stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "bloody"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You're an idiot."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are a fool."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You're foolish."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are dumb."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are an idiot."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You lack intelligence."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're an idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "God you're a moron"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're so dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are idiotic"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "I can't believe how dumb you are"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are unintelligent"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are so ignorant"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "asshole"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "what fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fucking stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are fucking stupid guy！"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "FUCK"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fucking work"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "ok shut up"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Good to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Glad to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Pleased to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Glad we've met."
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "It's a pleasure to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "I'm pleased to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "It's great to get to know you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "I'm glad to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "I'm glad to have met you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Pleased to meet you."
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Great seeing you"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Hi, nice to meet you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Great to meet you."
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Hi, glad to meet you."
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Good to see you!"
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "Glad to meet you."
+      },
+      {
+        "intent": "nicetomeeyou",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What are the languages you can speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which languages can you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can speak ?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you know any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what else do you know besides English?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages can you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages do you have knowledge of?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Can you speak more than one language?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you know other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "can you speak in english?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "do you speak kannada?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you speak hindi?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what's your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "do you know how old you are?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your birthdate?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your birth year?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What was your age on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you lived?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "give me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old are you"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old are u"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where do you live?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "So where are you from"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are you?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you born?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you at before you were here?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where's your home town?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your origin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your original city?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where might you be from?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is this"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who am i talking to"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "what's your name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who r u"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "whats ur name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who is it?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "who are u?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "hi! what's your name?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "What is your name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "whats your name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "Hello. What's your name?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "What's your name?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "What's your name"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "ok who are you ?"
+      },
+      {
+        "intent": "ask_whoisit",
+        "text": "whats your name"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to get to know your owner"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which designed you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which generated you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me the company who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your builder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to generate you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to make you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is behind all this?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who owns you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who developed you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made u"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your creator"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me about your personality"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "why are you here"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "talk about yourself"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me some stuff about you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "I want to know more about you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who are you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me about you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "about yourself"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "describe yourself"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "introduce yourself"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "say about you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "what are you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "define yourself"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "all about you"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help please"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "i don't know what i want"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "I need some help"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "options"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "show me the menu"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "show me what's possible"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what can you do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what can you help me with?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what are you good at?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can I do here"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can I do with this bot"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what is this bot for"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "cool! can I do something else here?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "talk to me!"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "come back"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can you help me"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what else can i do"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "are there any other options?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can i do here"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so now what"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "Great, is there anything else you can do, bot?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what can you do?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "how can you help me?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "can you do anything else?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "i asked you if you can do anything else"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "anything els"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "so what next?"
+      },
+      {
+        "intent": "ask_whatspossible",
+        "text": "what else can I do here?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

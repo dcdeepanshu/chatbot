@@ -1,0 +1,56 @@
+intent,button
+greet,Hello
+menu,Show Menu
+ask_howdoing,How am I doing?
+ask_isbot,Am I a Bot?
+appointment,Appointment Booking
+Doctor_Search,How can I search a doctor?
+Hospital_Search,I want to look for a particular hospital
+search_specialty,Search for a particular Speciality of doctor
+online_consult,Online Consultation with doctors
+E_card,Vidal  E-Card
+Enrollment,I want to enroll a new member.
+Policy_details,Policy details
+health,Health Insurance or your policy details
+login,How to login/signup?
+ mobile_email,Can I use my mobile no/e-mail id?
+otp,OTP
+set_password,How to set password for my account?
+reset_password,How to reset password for my account?
+login_issue,I can't login !
+out_of_scope,Something else which I can't handle
+cashless_procedure,How to avail cashless facility
+cancel_cashless,How to cancel cashless transaction
+time_preauth,Time limit to process pre-auth
+pay_cashless,Amount to be paid to hospital for cashless hospitalisation
+non_medical_expenses,Non medical expenses
+timelimit_hospital,Minimum time limit to stay in hospital for cashless 
+cashless_rejection,Cashless rejection
+ask_daycaresurgeries,Day Care surgeries
+claim_rejection,Claim rejection
+ask_disallowed_amount,What is disallowed amount
+shortfall,Shortfall documents
+docu_reimbursement,Documents to submit for reimbursement
+reimbursement_procedure,Procedure for reimbursement
+planned_hospitalisation,Planned Hospitalisation
+ask_appoint_confirm,Is my appointment confirmed?
+ask_emergency_hospitalisation,Emergency Hospitalisation
+ask_invoice,Invoice
+make_pay,Payment mode
+pay_issue,Payment Issue
+thankyou,Thank You
+nicetomeeyou,Nice to meet you
+ask_languagesbot,What languages can I speak?
+ask_howold,How old am I
+ask_wherefrom,Where am I from?
+ask_whoisit,Who am I
+ask_builder,Who developed me?
+handleinsult,Insult 
+ask_claim_shortfall,Reason for your claim shortfall
+ask_claim_status,Claim Status
+when_submit_claim,When to submit claim documents
+view_appointment,View my Appointments
+network_hosp,Network Hospitals 
+cashless_status,Cashless Status
+reimbursement_status,Reimbursement Status
+ask_whatspossible,What can I do here?
